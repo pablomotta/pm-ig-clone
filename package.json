@@ -4,8 +4,8 @@
 	"description": "Instagram Clone",
 	"main": "server.js",
 	"engines": {
-		"node": "14.x",
-		"npm": "6.x"
+		"node": ">=18",
+		"npm": ">=9"
 	},
 	"scripts": {
 		"start": "node server.js",
@@ -21,15 +21,15 @@
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
-		"config": "^3.3.6",
-		"dotenv": "^10.0.0",
-		"express": "^4.17.1",
-		"express-validator": "^6.12.1",
-		"jsonwebtoken": "^8.5.1",
-		"mongoose": "^6.0.3"
+		"config": "^3.3.12",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"express-validator": "^7.2.1",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.9.5"
 	},
 	"devDependencies": {
-		"concurrently": "^6.2.1",
-		"nodemon": "^2.0.12"
+		"concurrently": "^9.1.2",
+		"nodemon": "^3.1.9"
 	}
 }
